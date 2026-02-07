@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/wimsaioc/fredwim.site/
+    - export DEPLOYPATH=/home1/wimsaioc/fredwim.site/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
     - /bin/cp cv.html $DEPLOYPATH
