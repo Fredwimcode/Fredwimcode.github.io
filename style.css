@@ -1,0 +1,96 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Body spacing because navbar is fixed */
+body {
+  padding-top: 80px;
+  font-family: "Arial", sans-serif;
+}
+
+/* Navbar slim + professional */
+.navbar {
+  height: 75px;
+  padding: 0 20px;
+}
+
+/* Brand/logo alignment */
+.navbar-brand {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+/* Logo size without making navbar huge */
+.navbar-brand img {
+  height: 55px;
+  width: auto;
+  object-fit: contain;
+}
+
+.nav-link:hover {
+  color: white !important;
+}
+
+/* Jumbotron hero section */
+.jumbotron {
+  padding: 120px 20px 80px;
+  background: #fff8dc;
+}
+
+.jumbotron h1 {
+  font-weight: 700;
+}
+h2 {
+  font-weight: 700;
+}
+/* Section spacing */
+section {
+  padding: 80px 0;
+}
+
+/* Container padding (clean + responsive) */
+.container {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* Portfolio background */
+#porto {
+  background-color: #acbfa4;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* Contact spacing */
+#contact {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* Footer clean + neutral */
+#footer {
+  background-color: #1f2937;
+  color: white;
+  padding: 15px 0;
+}
+
+/* Portfolio cards modern hover effect */
+.card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+.card-img-top {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
